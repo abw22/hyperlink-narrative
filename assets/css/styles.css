@@ -1,5 +1,179 @@
-/* styles.css */
 
-* {
-	font-family: Arial;
+
+body {
+  margin: 0;
+  color: #151719;
+  background: #f5f6f1;
+  font-family: Literata, Georgia, serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 680px;
+  margin: 8vh auto;
+  padding: 0 24px;
+}
+
+h1 {
+  color: var(--heading, #183f3d);
+  font-family: Pacifico, cursive;
+  font-size: clamp(2rem, 7vw, 4rem);
+  font-weight: 400;
+  line-height: 1.18;
+  margin: 0 0 1rem;
+}
+
+p {
+  font-size: 1.12rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 2rem;
+}
+
+a {
+  color: var(--link, #0f625f);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+nav a {
+  border: 1px solid var(--border, #b8c7bc);
+  padding: 12px 16px;
+  background: var(--link-bg, #ffffff);
+}
+
+.small {
+  font-size: .95rem;
+  color: #555f5d;
+}
+
+/* index.html */
+.page-morning {
+  --heading: #184f46;
+  --link: #0f625f;
+  --border: #a6c8bc;
+  --link-bg: #ffffff;
+  background: #eaf7f0;
+}
+
+/* room.html */
+.page-gym {
+  --heading: #1e4f78;
+  --link: #245e8f;
+  --border: #a9c5dc;
+  --link-bg: #f8fcff;
+  background: #eaf3fb;
+}
+
+/* lamp.html */
+.page-lights {
+  --heading: #7a4f00;
+  --link: #8a5a00;
+  --border: #e3c47a;
+  --link-bg: #fffaf0;
+  background: #fff3cf;
+}
+
+/* table.html */
+.page-clipboard {
+  --heading: #4d5f16;
+  --link: #5d6f1c;
+  --border: #c6d38a;
+  --link-bg: #fdfff1;
+  background: #f0f5d8;
+}
+
+/* noise.html */
+.page-bus {
+  --heading: #593e83;
+  --link: #604395;
+  --border: #c4b3df;
+  --link-bg: #fbf8ff;
+  background: #eee7f8;
+}
+
+/* signal.html */
+.page-serve {
+  --heading: #8a2f37;
+  --link: #963b43;
+  --border: #e2aab0;
+  --link-bg: #fff8f8;
+  background: #fde9ec;
+}
+
+/* mirror.html */
+.page-roster {
+  --heading: #07535f;
+  --link: #0f6876;
+  --border: #9bcdd4;
+  --link-bg: #f5fdff;
+  background: #e4f6f8;
+}
+
+/* archive.html */
+.page-season {
+  --heading: #6e3d21;
+  --link: #7a4528;
+  --border: #d4b39d;
+  --link-bg: #fff9f5;
+  background: #f5e7dc;
+}
+
+/* fork.html */
+.page-lineup {
+  --heading: #803564;
+  --link: #8e3d70;
+  --border: #d9a8c7;
+  --link-bg: #fff7fc;
+  background: #f8e4f0;
+}
+
+/* patience.html */
+.page-timeout {
+  --heading: #47520f;
+  --link: #59651b;
+  --border: #c9d28d;
+  --link-bg: #fefff3;
+  background: #edf1d1;
+}
+
+/* threshold.html */
+.page-whistle {
+  --heading: #934716;
+  --link: #a34f19;
+  --border: #e0b18c;
+  --link-bg: #fff8f2;
+  background: #fae4d3;
+}
+
+/* map.html */
+.page-bracket {
+  --heading: #254b8b;
+  --link: #2e579a;
+  --border: #b0c4e6;
+  --link-bg: #f7faff;
+  background: #e6edfb;
+}
+
+/* ending.html */
+.page-match {
+  --heading: #0c5c35;
+  --link: #116c42;
+  --border: #9cc9af;
+  --link-bg: #f6fff9;
+  background: #dff4e8;
+}
+
+/* summary.html */
+.page-summary {
+  --heading: #3e4852;
+  --link: #475866;
+  --border: #b9c4cc;
+  --link-bg: #ffffff;
+  background: #eef1f4;
 }
