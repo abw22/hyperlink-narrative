@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Pacifico&display=swap");
 
 html,
 body {
@@ -9,9 +9,9 @@ body {
   margin: 0;
   background: #ffe6ee;
   color: #542c3a;
-  font-family: "Dancing Script", "Brush Script MT", cursive;
-  font-size: 22px;
-  line-height: 1.7;
+  font-family: "Nunito", "Trebuchet MS", sans-serif;
+  font-size: 19px;
+  line-height: 1.75;
 }
 
 main {
@@ -51,7 +51,8 @@ nav a {
   border-radius: 6px;
   background: #fff7fa;
   color: #8f3658;
-  font-size: 21px;
+  font-size: 19px;
+  font-weight: 700;
   line-height: 1.5;
   text-align: center;
   text-decoration: none;
@@ -66,7 +67,7 @@ nav a:focus {
 
 .small {
   color: #74495a;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 @media (max-width: 600px) {
